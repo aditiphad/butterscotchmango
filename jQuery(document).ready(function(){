@@ -1,0 +1,14 @@
+jQuery(document).ready(function(){
+"use strict";
+
+
+/* =============== Sticky Header ===================== */
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    if (scroll >= 70) {
+        $("header").addClass("sticky");
+    }
+    else{
+        $("header").removeClass("sticky");
+    }
+}); 

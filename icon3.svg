@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="19.916" viewBox="0 0 20 19.916">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.441" y1="-0.178" x2="0.535" y2="0.897" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e4001b"/>
+      <stop offset="1" stop-color="#430f35"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.457" y1="0.008" x2="0.525" y2="0.788" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.458" y1="0.039" x2="0.554" y2="1.135" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Marketing_Transformation" data-name="Marketing Transformation" transform="translate(-417.73 -623.343)">
+    <path id="Path_1761" data-name="Path 1761" d="M436.255,636.008a6.385,6.385,0,0,1,.967.073.419.419,0,1,0,.127-.828,7.177,7.177,0,1,0,6.01,6.024.419.419,0,0,0-.829.125,6.434,6.434,0,0,1,.071.953,6.347,6.347,0,1,1-6.347-6.347Z" transform="translate(-8.625 -8.995)" fill="url(#linear-gradient)"/>
+    <path id="Path_1762" data-name="Path 1762" d="M436.7,630.938a.419.419,0,0,0-.3.511,9.052,9.052,0,1,1-6.448-6.48.419.419,0,0,0,.214-.81,9.889,9.889,0,1,0,7.045,7.08A.419.419,0,0,0,436.7,630.938Z" transform="translate(0 -0.37)" fill="url(#linear-gradient-2)"/>
+    <path id="Path_1763" data-name="Path 1763" d="M458.108,627.008a.419.419,0,0,0-.337-.283l-2.8-.414-.4-2.611a.419.419,0,0,0-.711-.233l-3.262,3.262a.418.418,0,0,0-.118.359l.407,2.7-.781.8a3.455,3.455,0,1,0,.607.578l.76-.777,2.757.558a.406.406,0,0,0,.083.008.419.419,0,0,0,.3-.123l3.39-3.39A.419.419,0,0,0,458.108,627.008Zm-7.439,6.351a2.645,2.645,0,1,1-1.146-2.175l-2.024,2.069a.419.419,0,0,0,.6.586l2.03-2.075A2.624,2.624,0,0,1,450.669,633.359Zm3.514-3.285-2.473-.5-.363-2.4,2.527-2.527.319,2.1a.42.42,0,0,0,.353.352l2.279.338Z" transform="translate(-20.399 0)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>

@@ -1,0 +1,369 @@
+@media only screen and (device-width: 768px) and (device-height: 1024px) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
+    /* .topnav a {
+        display: none;
+    }
+    span.icon {
+        display: flex;
+        text-align: right;
+        padding: 0;
+        color: rgb(214, 37, 37);
+    }
+    .col-md-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-md-9 {
+        flex: 0 0 40%;
+        max-width: 90%;
+        position: fixed;
+        text-align: right;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #1c225b;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 18px;
+    }
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #ccd0f1;
+        display: block;
+        transition: 0.3s;
+    }
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    .sidenav .closebtn {
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    } */
+    /*###################### container with people images #######################*/
+    #hero::after {
+        width: 180%;
+        height: 95%;
+        border-radius: 0 0 50% 50%;
+        transform: translateX(-50%) rotate(0)
+    }
+    #hero h2 {
+        font-size: 26px !important;
+    }
+    #hero p {
+        font-size: 22px;
+        width: 100% !important;
+        margin-top: 5%;
+    }
+    header .header-logo {
+        max-width: 30px;
+    }
+    #hero::before {
+        top: 0;
+        width: 180%;
+        height: 94%;
+        border-radius: 0 0 50% 50%;
+        transform: translateX(-50%) translateY(20px) rotate(4deg)
+    }
+    /*########################### Responsive Navbar######################### */
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(27, 34, 91);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    .sidenav a {
+        font-size: 25px;
+        display: block;
+        transition: 0.3s;
+        color: #ddecf5;
+        padding: 10px 20px;
+        font-weight: 500;
+    }
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        color: white;
+    }
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+    .menu li {
+        display: none;
+    }
+    .menu span {
+        display: inline;
+        color: white;
+        font-size: 30px;
+    }
+    /*############################## Our Solutions ####################*/
+    .box_sliders {
+        height: 400px;
+        width: 100%;
+        border-radius: 90px 0 90px 0;
+        margin: 0;
+    }
+    .sliders h4 {
+        font-size: 15px;
+    }
+    .carousel-wrap {
+        width: 76% !important;
+    }
+    div .owl-carousel .owl-nav i.fa-angle-right {
+        right: -46px;
+    }
+    div .owl-carousel .owl-nav i.fa-angle-left {
+        left: -46px;
+    }
+    /*#################### Success stories ###################*/
+    .success {
+        background: rgb(174, 17, 100);
+        height: auto;
+        margin-bottom: 10%;
+    }
+    .success .success_img img {
+        /* height: 50vh;*/
+        margin-top: 1%;
+        padding-left: 8%;
+    }
+    .left_content h2 {
+        padding-left: 0;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .success_first,
+    .success p {
+        margin-left: 0;
+    }
+    .line_whitebold {
+        margin: 0;
+    }
+    /* ########### Employees ############# */
+    .team_1 {
+        height: auto;
+        max-width: 100%;
+    }
+    .right_employeeimg {
+        margin-left: -58px;
+        padding-top: 20px;
+        height: auto;
+        max-width: 100%;
+    }
+    .left_employeeimg {
+        padding-top: 20px;
+        margin-left: -18%;
+        height: auto;
+        max-width: 100%;
+    }
+    .our_power {
+        padding-bottom: 4px;
+    }
+    .our_power h2 {
+        margin-left: 0;
+    }
+    .employee_description {
+        padding-right: 10px;
+        margin-left: 0;
+    }
+    .btn-employee {
+        margin-top: 0;
+        margin-left: 0
+    }
+    /*########################## Footer ########################*/
+    .footer-links img {
+        width: 170px;
+    }
+    .footer-info .sitemap-link ul li {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:768px) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
+    #hero::after {
+        width: 180%;
+        height: 95%;
+        border-radius: 0 0 50% 50%;
+        transform: translateX(-50%) rotate(0)
+    }
+    #hero h2 {
+        font-size: 24px !important;
+    }
+    #hero .fixed-text .butter {
+        font-size: 22px;
+    }
+    #hero p {
+        font-size: 22px;
+        width: 100% !important;
+        margin-top: 5%;
+    }
+    header .header-logo {
+        max-width: 30px;
+    }
+    #hero::before {
+        top: 0;
+        width: 180%;
+        height: 94%;
+        border-radius: 0 0 50% 50%;
+        transform: translateX(-50%) translateY(20px) rotate(4deg)
+    }
+    /* ################ Responsive Navbar ################## */
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(27, 34, 91);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    .sidenav a {
+        font-size: 25px;
+        display: block;
+        transition: 0.3s;
+        color: #ddecf5;
+        padding: 10px 20px;
+        font-weight: 500;
+    }
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        color: white;
+        display: inline;
+    }
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+    .menu li {
+        display: none;
+    }
+    .menu span {
+        display: inline;
+        color: white;
+        font-size: 30px;
+    }
+    /* ####### What sets us apart ########## */
+    img.img_right {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    /* ################## Our Solutions ################# */
+    .item .box_sliders {
+        margin: 0;
+        width: 100%;
+    }
+    .carousel-wrap {
+        width: 76% !important;
+    }
+    div .owl-carousel .owl-nav i.fa-angle-right {
+        right: -46px;
+    }
+    div .owl-carousel .owl-nav i.fa-angle-left {
+        left: -46px;
+    }
+    /* ################### Success Stories ##################### */
+    .success {
+        background: rgb(174, 17, 100);
+        height: auto;
+        margin-bottom: 10%;
+    }
+    .success .success_img img {
+        margin-top: 1%;
+        max-width: 100%;
+        height: auto;
+    }
+    .left_content h2 {
+        padding-left: 0;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .success_first,
+    .success p {
+        margin-left: 0;
+    }
+    .line_whitebold {
+        margin: 0;
+    }
+    /* ################### Employee #################### */
+    .right_employeeimg {
+        margin-left: 0;
+        margin-top: 40px;
+        padding-left: 0;
+        width: 100%;
+    }
+    /* ############ lets connect footer ################ */
+    .lets_connect h4 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    /* ################ Main Footer  ################# */
+    .footer-links img {
+        width: 170px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    div.col-lg-3.col-md-6.footer-links.footer-logo-sec {
+        text-align: center;
+    }
+    .footer-info .sitemap-link ul li {
+        margin-top: 20px;
+    }
+    div.col-6.col-lg-3.col-md-6.footer-links.foot-links {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    div.col-6.col-lg-3.col-md-6.footer-links.foot-links {
+        font-size: 15px;
+    }
+    div.social-links {
+        text-align: center;
+    }
+    div.copyright {
+        text-align: center;
+    }
+}
+
+
+/* Ipad Portrait */
